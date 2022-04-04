@@ -1,0 +1,46 @@
+body,
+p,
+h1,
+h2 {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.black-header {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  padding: 10px 16px;
+}
+
+.black-header a {
+  color: #ddd9d9;
+  margin: 0 12px;
+  font-weight: 300;
+  font-size: 13px;
+}
+
+.black-header a:hover {
+  color: white;
+  transition: 500ms;
+}
+
+.white-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px;
+}
+
+.customer-side {
+  display: flex;
+  align-items: center;
+}
+
+.white-header a {
+  margin: 0 12px;
+}
