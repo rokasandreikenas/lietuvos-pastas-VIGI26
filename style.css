@@ -92,6 +92,7 @@ button {
   width: 120px;
   margin: 0 auto;
   padding-bottom: 16px;
+  margin-bottom: 16px;
 }
 
 .cards {
@@ -113,7 +114,47 @@ button {
   border-top-right-radius: 5px;
 }
 
-.card .card-text, .card a {
+.card .card-text,
+.card a {
   padding: 16px;
 }
 
+@media screen and (max-width: 768px) {
+  .black-header {
+    justify-content: center;
+  }
+
+  .black-header a {
+    font-size: 15px;
+  }
+
+  .black-header .info-side {
+    display: none;
+  }
+
+  .white-header {
+    flex-direction: column;
+  }
+
+  .white-header .customer-side {
+    margin-bottom: 16px;
+  }
+
+  .white-header button {
+    padding: 16px 24px;
+    font-size: 18px;
+  }
+
+  .hero {
+    height: 35vh;
+  }
+
+  .cards {
+    flex-direction: column;
+  }
+
+  .card {
+    width: 100%;
+    margin: 8px 0;
+  }
+}
